@@ -6,8 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./user-options.component.scss'],
 })
 export class UserOptionsComponent  implements OnInit {
-  @Input() text:string= '';
-  @Input() icon:string= '';
+  @Input() text:string = '';
+  @Input() icon:string = '';
+  @Input() color:string = '';
   
   constructor() { }
 

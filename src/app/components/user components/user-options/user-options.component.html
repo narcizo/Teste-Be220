@@ -1,5 +1,7 @@
-<div style="display: flex; justify-content: space-between; padding: 5px;">
-  <span class="backgroundCircleOutline"></span>
-  <ion-icon [name]="icon" style="color: orange"></ion-icon>
-  <p style="margin: 0px; padding-left: 10px; font-size: 10px;">{{text}}</p>
+<div class="wrapper-div">
+  <div style="position: relative;">
+    <span class="background-circle-outline"></span>
+    <ion-icon [name]="icon" [style.color]="color"></ion-icon>
+  </div>
+  <p [style.color]="color">{{text}}</p>
 </div>
