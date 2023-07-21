@@ -1,0 +1,19 @@
+<ion-toolbar>
+
+  <ion-buttons slot="start">
+    <ion-menu-button menu="menu"></ion-menu-button>
+  </ion-buttons>
+
+  <ion-title>Usina Play</ion-title>
+
+  <ion-buttons slot="end">
+    <ion-menu-button menu="notifications">
+
+      <span class="backgroundCircle"></span>
+      <ion-icon name="notifications" size="small"></ion-icon>
+      <span *ngIf=hasNotification class="dot"></span>
+
+    </ion-menu-button>
+  </ion-buttons>
+
+</ion-toolbar>

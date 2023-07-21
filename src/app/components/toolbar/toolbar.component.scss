@@ -1,0 +1,36 @@
+ion-toolbar {
+    --min-height: 50px;
+    background: #202020;
+}
+
+//TODO fazer o botão se adequar ao tamanho dos elementos filhos 
+ion-menu-button {
+    position: relative;
+}
+
+ion-icon {
+    color: orange;
+}
+
+//TODO fazer uma shadow bonitinha nesse círculo
+.backgroundCircle {
+    position:absolute;
+    height: 28px;
+    width: 28px;
+    background-color: black;
+    border-radius: 50%;
+
+    box-shadow: rgba(231, 234, 236, 0.35) 0px 4px 12px;
+}
+
+.dot {
+    position:absolute;
+    height: 9px;
+    width: 9px;
+    background-color: #6cbf6c;
+    border-radius: 50%;
+    display: inline-block;
+    top:5px;
+    left: 10px;
+    // box-shadow: 0px 0px 112px 0px rgba(45,255,196,0.4);
+  }
