@@ -1,6 +1,7 @@
 ion-toolbar {
     --min-height: 50px;
-    background-color: #1F1F21;
+    background-color: #1F1F21 !important;
+    // --ion-item-background:white;
 }
 
 .toolbar-container {

@@ -6,9 +6,13 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
-import { MenuComponent } from '../components/menu/menu.component';
-import { NotificationComponent } from '../components/notification/notification.component';
-import { ToolbarComponent } from '../components/toolbar/toolbar.component';
+import { MenuComponent } from '../components/toolbar components/menu/menu.component';
+import { NotificationComponent } from '../components/toolbar components/notification/notification.component';
+import { ToolbarComponent } from '../components/toolbar components/toolbar/toolbar.component';
+
+import { UserAvatarComponent } from '../components/user components/user-avatar/user-avatar.component';
+import { UserOptionsComponent } from '../components/user components/user-options/user-options.component';
+import { UserSummaryComponent } from '../components/user components/user-summary/user-summary.component';
 
 @NgModule({
   imports: [
@@ -21,6 +25,9 @@ import { ToolbarComponent } from '../components/toolbar/toolbar.component';
     MenuComponent,
     NotificationComponent,
     ToolbarComponent,
+    UserAvatarComponent,
+    UserOptionsComponent,
+    UserSummaryComponent
   ]
 })
 export class HomePageModule {}
