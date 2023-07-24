@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ICard } from 'src/app/model/interfaces/ICard';
 
 @Component({
   selector: 'app-card-list',
@@ -10,10 +11,30 @@ export class CardListComponent  implements OnInit {
   @Input() canAddNew:boolean = false;
   @Input() isNewFeature:boolean = false;
 
-  constructor() { }
+  cards:ICard[];
 
-  ngOnInit(
+  constructor() { 
+    this.cards = [
+      {
+        title: 'LEVANTAMENTO DE PESO',
+        caption: 'CONTINUAR TREINANDO',
+        redirect: '',
+        image: '',
+        isNewDrill: false,
+      },
+      {
+        title: 'YOGA',
+        caption: '',
+        redirect: '',
+        image: '',
+        isNewDrill: false,
+      },
+    ]
+  }
+
+  ngOnInit() {
     //TODO pegar imagens daqui https://picsum.photos/v2/list
-  ) {}
+    
+  }
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ICard } from 'src/app/model/interfaces/ICard';
 
 @Component({
   selector: 'app-card',
