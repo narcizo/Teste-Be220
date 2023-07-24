@@ -1,6 +1,6 @@
 ion-toolbar {
     --min-height: 50px;
-    background-color: #1F1F21 !important;
+    background-color: var(--background-grey) !important;
     // --ion-item-background:white;
 }
 
@@ -15,7 +15,7 @@ ion-menu-button {
 }
 
 ion-icon {
-    color: orange;
+    color: var(--orange);
 }
 
 ion-img {
@@ -24,11 +24,11 @@ ion-img {
 }
 
 //TODO fazer uma shadow bonitinha nesse círculo
-.backgroundCircle {
+.background-circle {
     position:absolute;
     height: 28px;
     width: 28px;
-    background-color: black;
+    background-color: var(--background-black);
     border-radius: 50%;
 
     box-shadow: rgba(231, 234, 236, 0.35) 0px 4px 12px;

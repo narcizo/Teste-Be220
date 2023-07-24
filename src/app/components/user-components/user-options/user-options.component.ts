@@ -8,7 +8,6 @@ import { Component, OnInit, Input } from '@angular/core';
 export class UserOptionsComponent  implements OnInit {
   @Input() text:string = '';
   @Input() icon:string = '';
-  @Input() color:string = '';
   
   constructor() { }
 

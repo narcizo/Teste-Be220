@@ -1,7 +1,7 @@
-.wrapper-div {
+.options-wrapper-div {
     display: flex; 
     justify-content: space-between; 
-    padding: 10px;
+    padding: 5px 10px 8px 3px;
     align-items: center;
 }
 
@@ -17,7 +17,7 @@
     border-width: thin;
     border-radius: 50%;
     background-color: transparent;
-    color: orange;
+    color: var(--orange);
     line-height: 30px
     // box-shadow: rgba(231, 234, 236, 0.35) 0px 4px 12px;
   }
@@ -26,11 +26,14 @@
     margin: 0px; 
     padding: 0px 0px 0px 5px;
     font-size: 12px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: var(--orange);
+    display: inline;
+    font-family: 'Roboto Condensed', sans-serif;
   }
 
   ion-icon {
     position: absolute;
+    color: var(--orange);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);

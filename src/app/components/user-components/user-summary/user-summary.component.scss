@@ -1,11 +1,12 @@
-.wrapper-div {
-    background-color: #1F1F21; 
-    padding-bottom: 10px; 
+.summary-wrapper-div {
+    background-color: var(--background-grey); 
+    padding-bottom: 20px;
+    margin-bottom: 30px; 
     border-bottom-left-radius: 60px; 
     border-bottom-right-radius: 60px;
 }
 
-.inner-wrapper-div{
+.summary-inner-wrapper-div{
     background-color: #13161a; 
     width: fit-content;
     margin: 0 auto;

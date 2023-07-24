@@ -6,7 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./card-list.component.scss'],
 })
 export class CardListComponent  implements OnInit {
-  @Input() title:string = ""
+  @Input() title:string = "";
+  @Input() canAddNew:boolean = false;
+  @Input() isNewFeature:boolean = false;
 
   constructor() { }
 
