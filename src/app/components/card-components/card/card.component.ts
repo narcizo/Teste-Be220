@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ICard } from 'src/app/model/interfaces/ICard';
 
 @Component({
@@ -7,6 +7,7 @@ import { ICard } from 'src/app/model/interfaces/ICard';
   styleUrls: ['./card.component.scss'],
 })
 export class CardComponent  implements OnInit {
+  @Input() card!: ICard;
 
   constructor() { }
 

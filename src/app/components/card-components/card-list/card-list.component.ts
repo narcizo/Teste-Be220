@@ -16,6 +16,13 @@ export class CardListComponent  implements OnInit {
   constructor() { 
     this.cards = [
       {
+        title: '',
+        caption: '',
+        redirect: '',
+        image: '',
+        isNewDrill: true,
+      },
+      {
         title: 'LEVANTAMENTO DE PESO',
         caption: 'CONTINUAR TREINANDO',
         redirect: '',

@@ -14,8 +14,8 @@ import { UserAvatarComponent } from '../components/user-components/user-avatar/u
 import { UserOptionsComponent } from '../components/user-components/user-options/user-options.component';
 import { UserSummaryComponent } from '../components/user-components/user-summary/user-summary.component';
 
-import { CardListComponent } from '../components/card-list/card-list.component'; 
-import { CardComponent } from '../components/card/card.component';
+import { CardListComponent } from '../components/card-components/card-list/card-list.component'; 
+import { CardComponent } from '../components/card-components/card/card.component';
 
 @NgModule({
   imports: [

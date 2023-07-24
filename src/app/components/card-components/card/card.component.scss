@@ -34,7 +34,7 @@ ion-card-title {
     bottom: 10px;
     left: 15px;
     font-size: medium;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--default-font);
     font-weight: bold;
 }
 
@@ -44,4 +44,18 @@ ion-card-subtitle {
     bottom: 35px;
     left: 15px;
     font-size: smaller;
+}
+
+ion-card-content {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+h2 {
+    white-space: pre-line;
+    font-family: var(--default-font);
+    padding-left: 5px;
 }

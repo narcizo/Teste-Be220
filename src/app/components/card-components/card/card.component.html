@@ -1,0 +1,11 @@
+<ion-card>
+  <ion-card-header *ngIf="!card.isNewDrill">
+    <ion-card-title>{{card.title}}</ion-card-title>
+    <ion-card-subtitle>{{card.caption}}</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content *ngIf="card.isNewDrill">
+    <ion-icon name="add-circle-outline" size="large"></ion-icon>
+    <h2>NOVO<br>TREINO</h2>
+  </ion-card-content>
+</ion-card>
