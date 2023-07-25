@@ -12,7 +12,7 @@ export class UserAvatarComponent  implements OnInit {
   constructor() {
     this.user = {
       name : 'Leonardo Santos',
-      avatarImg : '',
+      avatarImg : 'https://i.pravatar.cc/100?img=14',
       level : {
         levelName: 'Nível Roxo',
         levelColor: '#6A36E8',

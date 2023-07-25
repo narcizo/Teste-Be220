@@ -14,12 +14,13 @@ export class CardListComponent  implements OnInit {
   cards:ICard[];
 
   constructor() { 
+    let id = 10;
     this.cards = [
       {
         title: '',
         caption: '',
         redirect: '',
-        image: 'https://picsum.photos/id/237/256/144',
+        image: `https://picsum.photos/id/237/256/144`,
         isNewDrill: true,
       },
       {
@@ -37,10 +38,15 @@ export class CardListComponent  implements OnInit {
         isNewDrill: false,
       },
     ]
+    // Creando listas mockadas pra display
+    for (let i = 0; i < 100; i+= 10){
+
+    }
   }
 
   ngOnInit() {
     //TODO pegar imagens daqui https://picsum.photos/v2/list
+    console.log('https://picsum.photos/v2/list');
     
   }
 

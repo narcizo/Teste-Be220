@@ -1,17 +1,22 @@
 ion-toolbar {
     --min-height: 50px;
+    --opacity: 0;
     background-color: var(--background-grey) !important;
-    // --ion-item-background:white;
+    overflow:visible !important;
 }
 
-.toolbar-container {
-    z-index: 100;
-}
+// .toolbar-container {
+//     z-index: 100;
+// }
 
 //TODO fazer o botão se adequar ao tamanho dos elementos filhos 
 ion-menu-button {
     position: relative;
     color:white;
+}
+
+ion-button::after {
+    overflow: visible;
 }
 
 ion-icon {
@@ -31,7 +36,7 @@ ion-img {
     background-color: var(--background-black);
     border-radius: 50%;
 
-    box-shadow: rgba(231, 234, 236, 0.35) 0px 4px 12px;
+    box-shadow: 0px 2px 2px 0px var(--shadow-color);
 }
 
 .dot {
@@ -41,7 +46,7 @@ ion-img {
     background-color: #6cbf6c;
     border-radius: 50%;
     display: inline-block;
-    top:5px;
-    left: 15px;
-    // box-shadow: 0px 0px 112px 0px rgba(45,255,196,0.4);
+    top: 3px;
+    left: 12px;
+
   }

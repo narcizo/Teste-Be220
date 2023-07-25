@@ -25,10 +25,13 @@
   p {
     margin: 0px; 
     padding: 0px 0px 0px 5px;
+    width: auto;
     font-size: 12px;
     color: var(--orange);
     display: inline;
     font-family: var(--default-font);
+    word-break: initial;
+    white-space: break-spaces;
   }
 
   ion-icon {
