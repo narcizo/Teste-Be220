@@ -8,9 +8,10 @@ import { ICard } from 'src/app/model/interfaces/ICard';
 })
 export class CardComponent  implements OnInit {
   @Input() card!: ICard;
+  image:string = ''
 
   constructor() { }
-
-  ngOnInit() {}
+  
+  ngOnInit() { }
 
 }

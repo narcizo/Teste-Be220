@@ -1,7 +1,7 @@
 .options-wrapper-div {
     display: flex; 
     justify-content: space-between; 
-    padding: 0px 10px 5px 3px;
+    padding: 3px 10px 8px 10px;
     align-items: center;
 }
 
@@ -11,7 +11,7 @@
     position: relative;
 
     padding: .8rem;
-    width: 30px;
+    width: 10px;
     text-align: center;
     border-style: solid;
     border-width: thin;
@@ -33,6 +33,7 @@
 
   ion-icon {
     position: absolute;
+    font-size: 12px;
     color: var(--orange);
     left: 50%;
     top: 50%;
