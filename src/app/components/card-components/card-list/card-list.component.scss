@@ -7,27 +7,29 @@
 .card-list-wrapper-div {
   display: flex;
   align-items: center;
+  padding-top: 30px;
 }
 
 h1 {
-  padding: 5px 10px 0px 25px;
+  padding: 5px 10px 5px 25px;
   margin: 0;
   font-family: var(--default-font);
   font-weight: bold;
 }
 
-ion-grid {
-  padding: 0;
-  margin: 0;
-}
-
-ion-col {
+ion-grid, ion-col, ion-row {
   padding: 0;
   margin: 0;
 }
 
 ion-icon {
   color: var(--orange);
+}
+
+ion-col {
+  width: 288px;
+  height: 144px;
+  bottom: 27px;
 }
 
 ion-badge {

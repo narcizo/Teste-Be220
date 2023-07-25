@@ -10,7 +10,7 @@
 
 <ion-grid>
   <ion-row class="container">
-    <ion-col class="ion-no-padding" *ngFor="let card of cards">
+    <ion-col *ngFor="let card of cards">
       <app-card  [card]="card"></app-card>
     </ion-col>
   </ion-row>
