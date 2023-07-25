@@ -20,34 +20,26 @@ export class CardListComponent  implements OnInit {
         title: '',
         caption: '',
         redirect: '',
-        image: `https://picsum.photos/id/237/256/144`,
+        image: `https://picsum.photos/id/1077/256/144`,
         isNewDrill: true,
       },
       {
         title: 'LEVANTAMENTO DE PESO',
         caption: 'CONTINUAR TREINANDO',
         redirect: '',
-        image: 'https://picsum.photos/id/2/256/144',
+        image: 'https://picsum.photos/id/491/256/144',
         isNewDrill: false,
       },
       {
-        title: 'YOGA',
+        title: 'NATAÇÃO',
         caption: '',
         redirect: '',
-        image: 'https://picsum.photos/id/3/256/144',
+        image: 'https://picsum.photos/id/841/256/144',
         isNewDrill: false,
       },
     ]
-    // Creando listas mockadas pra display
-    for (let i = 0; i < 100; i+= 10){
-
-    }
   }
 
-  ngOnInit() {
-    //TODO pegar imagens daqui https://picsum.photos/v2/list
-    console.log('https://picsum.photos/v2/list');
-    
-  }
+  ngOnInit() {  }
 
 }
