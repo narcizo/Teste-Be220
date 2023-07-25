@@ -57,6 +57,7 @@ ion-img {
     background-color: #6cbf6c;
     border-radius: 50%;
     display: inline-block;
-    top: 3px;
-    left: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(20%, -160%);
   }
